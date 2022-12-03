@@ -1,0 +1,6 @@
+import { Person } from "./person"
+
+let p1: Person = { name: "Emile" } //works
+//let p1 = { name: "Alain" } //causes an error
+
+print(p1) // prints <record value>
